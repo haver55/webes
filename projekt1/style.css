@@ -1,0 +1,52 @@
+
+body {
+    background-color: aqua;
+}
+
+.cím{
+    
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+.button{
+    margin-left: 95%;
+}
+
+.button1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+#ko,
+#papir
+{
+    width: 180px;
+    height: 180px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+#ollo
+{
+    width: 250px;
+    height: 180px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.button2:hover{
+    transform: translate(10px, 20px);
+}
+
+.jatekosok{
+    margin-left: 10%;
+}
+
+.eredmenyek{
+    margin-right: 10%;
+    
+    margin-left: 10%;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
