@@ -80,14 +80,14 @@ foreach(explode("\n", $passwords) as $line)
 }
 
 if ($validUser == false){
-    header("Location: index.php?response=Invalid User!");
+    header("Location: alap.php?response=Sikertelen bejelentkezés!");
 }
 else if ($correctPassword == false){
-    header("Location: index.php?response=Invalid password!&redirect=police.hu&delay=3");
+    header("Location: alap.php?response=Rossz Jelszó! &redirect=police.hu&delay=3");
 
 }else{
     $color = Get_Color($LogInUser);
-    header("Location: index.php?response=Welcome!&color=$color");
+    header("Location: alap.php?response=Sikeres Bejelentkezés!&color=$color");
 }
 
 ?>

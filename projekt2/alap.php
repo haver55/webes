@@ -31,8 +31,8 @@ if(isset($_GET["redirect"]) && isset($_GET["delay"]))
             align-items: center;
             height: 20%;
             width: 100%;
-            background-color: #000000;
-            color: #ffffff;
+            background-color: goldenrod;
+            color: black;
             font-family: Arial;
             font-size: 20px;
         }
@@ -45,7 +45,7 @@ if(isset($_GET["redirect"]) && isset($_GET["delay"]))
             height: 20%;
             width: 100%;
             background-color: <?php if(isset($_GET["color"])){echo $_GET["color"];} else {echo "black";}  ?>;
-            color:  #00ffd5;
+            color:  goldenrod;
             font-family: Arial;
             font-size: 20px;
         }
@@ -55,10 +55,10 @@ if(isset($_GET["redirect"]) && isset($_GET["delay"]))
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 60%;
+            height: 100%;
             width: 100%;
-            background-color: #000000;
-            color: #ffffff;
+            background-color: black;
+            color: black;
             font-family: Arial;
             font-size: 20px;
         }
@@ -74,11 +74,11 @@ if(isset($_GET["redirect"]) && isset($_GET["delay"]))
 
         input[type=submit] {
             width: 100%;
-            background-color: #000000;
-            color: #ffffff;
+            background-color: goldenrod;
+            color: black;
             padding: 14px 20px;
             margin: 8px 0;
-            border: 2px solid #ffffff;
+            border: 2px solid black;
             border-radius: 4px;
             cursor: pointer;
         }
@@ -103,7 +103,7 @@ if(isset($_GET["redirect"]) && isset($_GET["delay"]))
 <body >
     <div id= "everyting">
         <div id="info-container" >
-                <p>Nagy Ákos<br>I155A6</p>
+                <p>Nagy Ákos  NK:I155A6</p>
         </div>
         <div id= "response-contaienr">
             <?php
